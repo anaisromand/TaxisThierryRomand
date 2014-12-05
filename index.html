@@ -30,13 +30,6 @@
 
 		var map = new google.maps.Map(document.getElementById('map-container'),mapOptions);
 
-		/* LOCALISATIONS */
-		// Suippes : 49.119119, 4.536905
-		// Chalons : 48.955327,4.348166
-		// Fagnières : 48.9478115,4.306097
-		// Saint-Memmie : 48.954548,4.415337
-		// Sainte-Marie-à-Py : 49.2440864,4.5159351
-
 		var markerSuippes = new google.maps.Marker({
 			position: new google.maps.LatLng(49.119119, 4.536905),
 			map     : map,
@@ -85,14 +78,18 @@
 
 <body>
 	<div id="header">
-		<img src="img/logo.svg" onerror="this.onerror=null; this.src='img/logo.png'" />
+		<img src="img/logo.svg" onerror="this.onerror=null; this.src='img/logo.png'" alt="Taxis Thierry Romand" />
+
 		<h1>Taxis Thierry Romand</h1>
-		<h2><a href="tel:+33326665331">03 26 66 53 31</a></h2>
+
+		<h2>
+			<a href="tel:+33326665331">03 26 66 53 31</a>
+		</h2>
+
 		<h3>« Partout avec vous »</h3>
 	</div>
 
 	<div id="map-container">
-
 	</div>
 </body>
 </html>
