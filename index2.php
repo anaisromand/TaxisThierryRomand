@@ -89,6 +89,7 @@
 
 <body data-target="#header-nav" data-spy="scroll">
 
+<<<<<<< Updated upstream
     <div class="bg-header">
     <div id="bg-color">
         <div class="container header">
@@ -291,6 +292,213 @@
             </div>
         </div>
     </div>
+=======
+	<div class="bg-header">
+	<div id="bg-color">
+		<div class="container header">
+			<div class="row">
+				<div itemscope itemtype="http://schema.org/LocalBusiness" id="header">
+					<img src="img/logo_blanc.svg" onerror="this.onerror=null; this.src='img/logo_blanc.png'" alt="Logo Taxis Thierry Romand"/>
+					<h1 itemprop="name">Taxis Thierry Romand</h1>
+					<h3>« Partout avec vous »</h3>
+					<a href="tel:+33326665331"><h2>
+						<span itemprop="telephone">03 26 66 53 31</span>
+					</h2></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+	<div class="test" id="header-nav">
+		<nav>
+			<ul class="nav nav-tabs">
+				<li><a href="#presentation">Présentation</a></li>
+				<li><a href="#tma">Transports de malade assis</a></li>
+				<li><a href="#te">Transports d'enfants</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<!-- <div class="bloc"></div> -->
+
+	<div class="container content">
+		<div class="row" id="presentation">
+			<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 col-sm-offset-1">
+				<p>Taxis Thierry Romand regroupe les taxis de Suippes, Châlons-en-Champagne, Fagnières, Saint-Memmie et de Sainte-Marie-à-Py. 
+				Nous vous accompagnons maintenant depuis plus de 9 ans.</p>
+			</div>
+			<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+				<p>Nous vous transportons pour tous vos déplacements, qu'ils soient personnels ou médicaux. Nous aidons vos proches à mobilité 
+				réduite à se rendre à leur lieu de rendez-vous, ainsi que vos enfants pour les trajets entre le domicile et leurs établissements.</p>
+			</div>
+		</div>
+	</div>
+
+		
+		<div>
+			<div id="map-container">
+			</div>
+		</div>
+
+
+	<div class="container content">
+		<div class="row" id="tma">
+			<h1>Transports de malade assis</h1>
+			
+			<div class="col-sm-6 col-xs-12">
+				<p>Les chauffeurs de taxis doivent être obligatoirement titulaires du brevet de secouriste. Nos chauffeurs de taxi ont donc passé 
+				une formation de secourisme et sont titulaire de ce dernier. Conventionné par les organismes sociaux, nous sommes habilités, au 
+				même titre que les VSL, à transporter des malades assis, sur prescription médicale. N'hésitez pas à nous contacter pour plus de 
+				renseignements. Munissez-vous de votre attestation de carte vitale ainsi que du bon de transport de votre médecin.<br />
+				</p>
+			</div>
+
+			<div class="col-sm-6 col-xs-12">
+				<p>Au cours de votre déplacement, vous bénéficiez de notre assistance continue que ce soit pour l'accompagnement jusqu'au service 
+				concerné, pour l'accomplissement des formalités (bureau des entrées et des sorties, secrétariat, salle d'attente, ... ), aide pour 
+				l'accès au véhicule ainsi qu'à votre domicile.<br />
+				</p>
+			</div>
+
+			<div class="col-sm-8 col-xs-12 col-sm-offset-2">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+					    Vous trouverez ci-dessous les cas ou vous aurez le droit au remboursement du transport assis :
+					</div>
+					<ul class="list-group">
+					    <li class="list-group-item">Lorsque le traitement est en rapport avec une affection de longue durée prise en charge à 100%.</li>
+					    <li class="list-group-item">Pour les hospitalisations (entrées et sorties).</li>
+					    <li class="list-group-item">Pour les transports en série<span class="green">*</span>
+					    							(au moins 4 transports de plus de 50 km sur deux mois, pour un même traitement).
+					    </li>
+					    <li class="list-group-item">Pour les transports de plus de 150 km<span class="green">*</span>.</li>
+					    <li class="list-group-item">Pour les accidents du travail ou maladies professionnelles.</li>
+					</ul>
+
+						<p class="right"><span class="green">*</span>accord préalable de votre organisme nécessaire</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="row" id="te">
+			<h1>Transports d'enfants</h1>
+			
+			<div class="col-xs-12">
+				<div class="col-md-6 col-xs-12">
+					<h2>Transport extra-scolaire</h2>
+						<p>Votre enfant a une prescription médicale et il doit être suivi au CMPP, Centre Lewis Carroll, en hôpital de jour ou dans une
+						toutes autres structures. Nous sommes conventionné par les organismes sociaux, nousÒ pouvons prendre votre enfant en charge.<br /><br />
+						Vous avez une préférence pour l'un de nos chauffeurs taxi ? N'hésitez pas nous le dire, nous pouvons mettre à votre disposition 
+						le chauffeur que vous désirez.</p>
+				</div>
+				<div class="col-md-6 col-xs-12">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							Nous vous garantissons :
+						</div>
+						<ul class="list-group">
+							<li class="list-group-item">la prise en charge par son éducateur(trice).</li>
+						    <li class="list-group-item">d'être présent avant la fin de sa séance.</li>
+						    <li class="list-group-item">que votre enfant ne se trouve jamais seul dans la salle d'attente.</li>
+						    <li class="list-group-item">un siège réhausseur pour son déplacement, si besoin.</li>
+						    <li class="list-group-item">une aide pour l'accès au véhicule, à votre domicile.</li>
+					    </ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12">
+				<div class="col-md-6 col-xs-12">
+					<h2>Transport scolaire</h2>
+					<p>Sur simple demande nous pouvons transporter votre enfant à son école, ci celui-ci doit se rendre en cliss nous pouvons vous 
+					établir un devis pour le conseil général avec lequel nous travaillons.
+
+					Votre enfant doit se rendre dans un IME, CAT ou bien dans un autre institut spécialisé, nous pouvons l'accompagné.
+					Sur simple demande nous pouvons vous établir un devis.</p>
+				</div>
+				<div class="col-md-6 col-xs-12">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							Nous vous garantissons :
+						</div>
+							<ul class="list-group">
+								<li class="list-group-item">une aide pour l'accès au véhicule, à votre domicile.</li>
+							    <li class="list-group-item">d'attendre la prise en charge par son établissement</li>
+							    <li class="list-group-item">d'être présent avant sa sortie, le soir.</li>
+							    <li class="list-group-item">que votre enfant ne se trouve jamais seul. </li>
+						    </ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="contact" id="contact">
+		<div class="content container">
+			<div class="row">
+				<h1>Contact</h1>
+					<div class="col-md-4 col-md-offset-1 col-xs-12 cgauche">
+						<h2>
+							<a href="tel:+33326665331"><span itemprop="telephone">03 26 66 53 31</span></a>
+						</h2>
+						<span class="ou">ou</span>
+						<h2>
+							<a href="mailto:contact@taxisthierryromand.fr">contact@taxisthierryromand.fr</a>
+						</h2>
+					</div>
+					<div class="col-md-6 col-md-offset-1 col-xs-12">
+
+						<?php
+							$name = $_POST['name'];
+							$email = $_POST['email'];
+							$message = $_POST['message'];
+							$from = 'From: Portfolio'; 
+							$to = 'romand.anais.51@gmail.com'; 
+							$subject = $_POST['subject'];
+									
+							$body = "From: $name\n E-Mail: $email\n Message:\n $message";
+										
+							if($_POST['name'] != '' && $_POST['email'] != '' && $_POST['message'] != '') {
+								if (mail($to, $subject, $body, $from)) { 
+									echo '<p>Votre message a bien été envoyé.</p>';
+								} else { 
+									echo '<p>Une erreur vient de survenir. Revenez en arrière et réessayez.</p>'; 
+								} 
+							} else {
+								echo '<p>Une erreur vient de survenir. Revenez en arrière et réessayez.</p>'; 
+							}			
+						?>
+
+
+						<form method="post" class="form-inline">
+							<div class="form-group">
+								<input name="name" type="text" class="form-control" placeholder="Nom*" required />
+							</div>
+							<div class="form-group">
+								<input name="prenom" type="text" class="form-control" placeholder="Prénom*" required />
+							</div>
+						</form>
+						<form class="form-inline">
+							<div class="form-group">
+								<input name="email" type="email" class="form-control" placeholder="E-mail*" required />
+							</div>
+							<div class="form-group">
+								<input type="phone" class="form-control" id="Telephone" placeholder="Téléphone">
+							</div>
+						
+							<textarea class="form-control" name="message" type="text" placeholder="Message*"></textarea>
+							<button name="submit" type="submit" value="submit" class="btn btn-default">Envoyer</button>
+						</form>
+
+					</div>
+					<div class="mentions col-xs-12">
+						<h3>Taxis Thierry Romand — 1 cité lépine 51600 SUIPPES</h3>
+					</div>
+			</div>
+		</div>
+	</div>
+>>>>>>> Stashed changes
 
 <script type="text/javascript">
 // $(function(){
