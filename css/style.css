@@ -9,6 +9,13 @@ html, body {
 	line-height: 1.5rem;
 }
 
+p {
+	color: #393d33;
+	font-size: 0.875rem;
+	text-align: left;
+	margin-bottom: 20px;
+}
+
 .gold {
 	color: #e4b736;
 }
@@ -19,10 +26,20 @@ html, body {
 
 .right{
 	text-align: right;
+	padding-right: 20px;
 }
 
 .bg-header {
 	background: url('../img/cover_ss_fond.png') no-repeat center fixed;
+	background-size: cover;
+	-moz-background-size:cover;
+	-webkit-background-size: cover;
+	background-color: #e4b736;
+	height: 600px;
+}
+
+.bg-center {
+	background: url('../img/sitetesla.png') no-repeat center fixed;
 	background-size: cover;
 	-moz-background-size:cover;
 	-webkit-background-size: cover;
@@ -45,6 +62,8 @@ html, body {
 	vertical-align: middle;
 }
 
+h2 { margin-bottom: 20px;}
+
 .header h1, .header h2 {
 	font-weight: 700;
 	font-size: 1.6rem;
@@ -63,6 +82,10 @@ html, body {
 	font-style: italic;
 	font-size: 1.4rem;
 	color: #fafcfb;
+}
+
+h1, h2, h3{
+	line-height: 1.5;
 }
 
 #header-nav.affix-top {
@@ -90,7 +113,7 @@ html, body {
 	color: #e4b736;
 	background-color: #fafcfb;
 	border:none;
-	font-weight: 700;
+/*	font-weight: 700;*/
 }
 
 .nav-tabs > li {
@@ -99,6 +122,8 @@ html, body {
 
 .nav-tabs > li > a {
 	border: none;
+	color: #d9d1b8;
+	font-weight: 600;
 }
 
 nav {
@@ -137,7 +162,7 @@ nav > ul {
 
 #presentation {
 	height: auto;
-	padding-top: 125px;
+	padding-top: 65px;
 	padding-bottom: 10px;
 }
 
@@ -187,12 +212,6 @@ a, a:hover, a:active {
 	font-size: 300;
 }
 
-p {
-	color: #393d33;
-	font-size: 0.875rem;
-	text-align: left;
-}
-
 #tma ul li {
 	font-size: 0.875rem;
 	color: #1a2c23;
@@ -224,12 +243,49 @@ p {
 	border: 1px solid white;
 }
 
-.form-inline .form-control, .btn {
+.container.cgauche {
+	display: table;
+	height: 200px;
+}
+
+.container.cgauche > .row {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+/*.form-inline, .input-group, .btn, .input {
 	margin: 5px;
 	width: 100%;
+	border-radius: 4px;
+}*/
+
+.form-inline > .row {
+	margin-bottom: 4px;
+}
+
+.form-inline .input-group, .form-inline .form-control {
+	width: 100%;
+}
+
+textarea.form-control {
+	height: 150px;
+	border-radius: 0;
 }
 
 .form-control, .form-control:focus, .btn-default {
 	border-color: #c9a130;
 	box-shadow: none;
+}
+
+ .btn-default,
+ .btn-default:hover,
+ .btn-default:focus,
+ .btn-default.focus,
+ .btn-default:active,
+ .btn-default.active,
+ .open > .dropdown-toggle.btn-default {
+	background-color: white;
+	color: #c9a130;
+	border-color: #c9a130;
+	border-radius: 0;
 }
