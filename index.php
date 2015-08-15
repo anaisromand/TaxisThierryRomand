@@ -227,7 +227,7 @@
                                         if (mail($to, $subject, $body, $headers)) { 
                                             echo '<p>Votre message a bien été envoyé.</p>';
                                         } else { 
-                                            throw new \Exception('Une erreur vient de survenir. Revenez en arrière et réessayez.'); 
+                                            throw new Exception('Une erreur vient de survenir. Revenez en arrière et réessayez.'); 
                                         } 
                                     } else {
                                         echo 'Merci de renseigner les champs nécessaires.'; 
