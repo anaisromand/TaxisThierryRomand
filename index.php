@@ -17,8 +17,8 @@
         <script src="bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
         <script src="bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
         <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
-        <script src="js/maps.js" type="text/javascript"></script>
-
+        <script src="js/main.js" type="text/javascript"></script>
+        <script src="js/map.js" type="text/javascript"></script>
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -101,11 +101,11 @@
             <div class="row" id="Taxis-Chalons-en-Champagne-Suippes">
                 <h1>Présentation</h1>
                     <div class="col-md-5 col-md-offset-1 col-sm-6 col-xs-12">
-                        <p>Taxis Thierry Romand regroupe les taxis de Suippes, Châlons-en-Champagne, Fagnières, Saint-Memmie et de Sainte-Marie-à-Py 
+                        <p>Taxis Thierry Romand regroupe les taxis de Suippes, Châlons-en-Champagne, Fagnières, Saint-Memmie et de Sainte-Marie-à-Py
                         dans la marne. Nous vous accompagnons maintenant depuis plus de 10 ans dans chacun de vos déplacements.<br /><br />
                         Grâce à nos 9 véhicules, nous pouvons vous transporter pour tous vos trajets, qu'ils soient personnels ou d'ordre
                         médicale.<br />
-                        Allant de la citadine jusqu'au véhicule 9 places, en passant par le PMR et la berline, nous avons le véhicule 
+                        Allant de la citadine jusqu'au véhicule 9 places, en passant par le PMR et la berline, nous avons le véhicule
                         qui correspond à vos besoins !
 
                         </p>
@@ -115,7 +115,7 @@
                         d'une trousse de secours.<br /><br />
 
                         Soucieux de l’impact environnemental des voitures nous avons commencé à nous intéresser depuis 2014 
-                        aux voitures électriques performantes afin d'allier confort et écologie. Contactez-nous pour vivre 
+                        aux voitures électriques performantes afin d'allier confort et écologie. Contactez-nous pour vivre
                         l'expérience du tout électrique en Tesla !</p>
                     </div>
             </div>
@@ -132,12 +132,12 @@
                 
                 <div class="col-lg-8 col-lg-offset-2">
                     <p>De votre domicile jusqu'à la prise en charge par votre spécialiste, vous bénéficiez de toute notre assistance. <br />
-                    Que vous deviez vous rendre sur Reims, Châlons-en-Champagne, Epernay, Paris, Lille, Metz ou dans toutes autres villes françaises, 
+                    Que vous deviez vous rendre sur Reims, Châlons-en-Champagne, Epernay, Paris, Lille, Metz ou dans toutes autres villes françaises,
                     nous serons là pour vous accompagnez de votre domicile jusqu'à votre retour.<br /><br />
 
-                     Nous pouvons répondre à chacun de vos besoins : un de vos proches à mobilité réduite doit se rendre sur 
+                     Nous pouvons répondre à chacun de vos besoins : un de vos proches à mobilité réduite doit se rendre sur
                         l'un de ces lieux de rendez-vous ? Nous pouvons l'y emmener grâce à notre véhicule équipé PMR.<br />
-                            Votre enfant doit se rendre jusqu'à son établissement ? Nous ponvons l'y emmener grâce à nos différents 
+                            Votre enfant doit se rendre jusqu'à son établissement ? Nous ponvons l'y emmener grâce à nos différents
                         sièges auto pour enfant allant du groupe 0+ au groupe 3 (merci de le préciser lors de votre demande de transport).</p>
                 </div>
                 <div class="col-lg-8 col-lg-offset-2">
@@ -147,19 +147,6 @@
         </div>
 
 
-    <!--     <div class="bg-center">
-        <div id="bg-color">
-            <div class="container header">
-                <div class="row">
-                    <div id="header">
-                        <h3>Nos véhicules peuvent être équipés de réhausseurs ou de sièges-auto à votre demande. 
-                        Pour plus de sûreté, la sécurité enfant est activé sur chaque portières arrières.</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div> -->
-
         <div class="container content">
             <div class="row" id="Transports-Enfants-Rehausseur-Lewis-Carroll-CMPP">
                 <h1>Transports d'enfants</h1>
@@ -167,11 +154,11 @@
                 <div class="col-xs-12">
                     <div class="col-md-6 col-xs-12">
                         <h2>Transport extra-scolaire</h2>
-                            <p>Votre enfant a un suivi, 
-                            nous pouvons le prendre en charge depuis son école ou bien depuis son domicile. Nous serons présents à ces côtés jusqu'au 
+                            <p>Votre enfant a un suivi,
+                            nous pouvons le prendre en charge depuis son école ou bien depuis son domicile. Nous serons présents à ces côtés jusqu'au
                             début de sa séance, et dès la fin de celle-ci. Nous ne laissons jamais un enfant seul.<br />
                             Nous travaillons depuis plusieurs années avec les même éducateurs, un vrai lien de confiance c'est construit.<br /><br />
-                            Vous avez une préférence pour l'un de nos chauffeurs taxi ? Dites-le nous, afin que nous puissons 
+                            Vous avez une préférence pour l'un de nos chauffeurs taxi ? Dites-le nous, afin que nous puissons
                             mettre à votre disposition la personne que vous désirez.</p>
                     </div>
                     <div class="col-md-6 col-xs-12">
@@ -192,7 +179,7 @@
                 <div class="col-xs-12">
                     <div class="col-md-6 col-xs-12">
                         <h2>Transport scolaire</h2>
-                        <p>Sur simple demande nous pouvons transporter votre enfant à son école, si celui-ci doit se rendre en CLIS nous pouvons vous 
+                        <p>Sur simple demande nous pouvons transporter votre enfant à son école, si celui-ci doit se rendre en CLIS nous pouvons vous
                         établir un devis pour le conseil général avec lequel nous travaillons.<br />
                         Votre enfant doit se rendre dans un IME, CAT ou bien dans un autre institut spécialisé, nous pouvons l'accompagner.<br />
                         Sur simple demande nous pouvons vous établir un devis.</p>
@@ -261,9 +248,7 @@
                                 }
                             ?>
 
-
                             <form method="post" class="form-inline">
-                                
                                 <div class="row">
                                     <div class="col-md-5 col-md-offset-1 col-xs-6">
                                         <div class="input-group">
@@ -290,17 +275,17 @@
                                     </div>
                                 </div><!-- /.row -->
                             
-                            <div class="row">
-                                <div class="col-md-10 col-md-offset-1">
-                                    <textarea class="form-control" name="message" placeholder="Message*" required></textarea>
+                                <div class="row">
+                                    <div class="col-md-10 col-md-offset-1">
+                                        <textarea class="form-control" name="message" placeholder="Message*" required></textarea>
+                                    </div>
                                 </div>
-                            </div>
 
-                             <div class="row">
-                                <div class="col-md-10 col-md-offset-1">
-                                    <button name="submit" type="submit" value="submit" class="btn btn-default">Envoyer</button>
+                                 <div class="row">
+                                    <div class="col-md-10 col-md-offset-1">
+                                        <button name="submit" type="submit" value="submit" class="btn btn-default">Envoyer</button>
+                                    </div>
                                 </div>
-                            </div>
 
                             </form>
                         </div>
