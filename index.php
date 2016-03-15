@@ -87,41 +87,16 @@
             <div class="row" id="tma">
                 <h1>Transports de malade assis</h1>
                 
-                <div class="col-sm-6 col-xs-12">
-                    <p>Les chauffeurs de taxis doivent être obligatoirement titulaires du brevet de secouriste. Nos chauffeurs de taxi ont donc passé 
-                    une formation de secourisme et sont titulaire de ce dernier. Conventionné par les organismes sociaux, nous sommes habilités, au 
-                    même titre que les VSL, à transporter des malades assis, sur prescription médicale. N'hésitez pas à nous contacter pour plus de 
-                    renseignements. Munissez-vous de votre attestation de carte vitale ainsi que du bon de transport de votre médecin.<br />
-                    </p>
+                <div class="col-xs-8 col-sm-offset-2">
+                    <p>Nos chauffeurs de taxi ont passé une formation de secourisme et sont titulaires de ce dernier.
+                    Au cours de votre déplacement, vous bénéficiez de toute notre assistance.</p>
                 </div>
-
-                <div class="col-sm-6 col-xs-12">
-                    <p>Au cours de votre déplacement, vous bénéficiez de notre assistance continue que ce soit pour l'accompagnement jusqu'au service 
-                    concerné, pour l'accomplissement des formalités (bureau des entrées et des sorties, secrétariat, salle d'attente, ... ), aide pour 
-                    l'accès au véhicule ainsi qu'à votre domicile.<br />
-                    </p>
-                </div>
-
-                <div class="col-sm-8 col-xs-12 col-sm-offset-2">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            Vous trouverez ci-dessous les cas où vous aurez le droit au remboursement du transport assis :
-                        </div>
-                        <ul class="list-group">
-                            <li class="list-group-item">Lorsque le traitement est en rapport avec une affection de longue durée prise en charge à 100%.</li>
-                            <li class="list-group-item">Pour les hospitalisations (entrées et sorties).</li>
-                            <li class="list-group-item">Pour les transports en série<span class="green">*</span>
-                                                        (au moins 4 transports de plus de 50 km sur deux mois, pour un même traitement).
-                            </li>
-                            <li class="list-group-item">Pour les transports de plus de 150 km<span class="green">*</span>.</li>
-                            <li class="list-group-item">Pour les accidents du travail ou maladies professionnelles.</li>
-                        </ul>
-
-                            <p class="right"><span class="green">*</span>accord préalable de votre organisme nécessaire</p>
-                    </div>
+                <div class="col-xs-8 col-sm-offset-2">
+                    <h3 id="black">N'hésitez pas à nous contacter pour plus de renseignements.</h3>
                 </div>
             </div>
         </div>
+
 
     <!--     <div class="bg-center">
         <div id="bg-color">
@@ -143,10 +118,9 @@
                 <div class="col-xs-12">
                     <div class="col-md-6 col-xs-12">
                         <h2>Transport extra-scolaire</h2>
-                            <p>Votre enfant a une prescription médicale et il doit être suivi au CMPP, Centre Lewis Carroll, 
-                            en hôpital de jour ou dans une toutes autres structures. Nous sommes conventionné par les organismes 
-                            sociaux, nous pouvons prendre votre enfant en charge.<br /><br />
-                            Vous avez une préférence pour l'un de nos chauffeurs taxi ? N'hésitez pas nous le dire, nous pouvons 
+                            <p>Votre enfant a un suivi au CMPP, Centre Lewis Carroll, ou dans une tout autre structure. 
+                            Nous pouvons prendre votre enfant en charge.<br /><br />
+                            Vous avez une préférence pour l'un de nos chauffeurs taxi ? N'hésitez pas à nous le dire, nous pouvons 
                             mettre à votre disposition le chauffeur que vous désirez.</p>
                     </div>
                     <div class="col-md-6 col-xs-12">
@@ -158,7 +132,7 @@
                                 <li class="list-group-item">la prise en charge par son éducateur(trice).</li>
                                 <li class="list-group-item">d'être présent avant la fin de sa séance.</li>
                                 <li class="list-group-item">que votre enfant ne se trouve jamais seul dans la salle d'attente.</li>
-                                <li class="list-group-item">un siège réhausseur pour son déplacement, si besoin.</li>
+                                <li class="list-group-item">un réhausseur pour son déplacement, si besoin.</li>
                                 <li class="list-group-item">une aide pour l'accès au véhicule, à votre domicile.</li>
                             </ul>
                         </div>
@@ -167,7 +141,7 @@
                 <div class="col-xs-12">
                     <div class="col-md-6 col-xs-12">
                         <h2>Transport scolaire</h2>
-                        <p>Sur simple demande nous pouvons transporter votre enfant à son école, ci celui-ci doit se rendre en CLIS nous pouvons vous 
+                        <p>Sur simple demande nous pouvons transporter votre enfant à son école, si celui-ci doit se rendre en CLIS nous pouvons vous 
                         établir un devis pour le conseil général avec lequel nous travaillons.<br />
                         Votre enfant doit se rendre dans un IME, CAT ou bien dans un autre institut spécialisé, nous pouvons l'accompagner.<br />
                         Sur simple demande nous pouvons vous établir un devis.</p>

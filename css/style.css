@@ -88,6 +88,8 @@ h1, h2, h3{
 	line-height: 1.5;
 }
 
+#black { color: #393d33}
+
 #header-nav.affix-top {
     position: absolute;
   	width: 100%;
