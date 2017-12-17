@@ -4,13 +4,13 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-        <meta name="description" content="Taxis Thierry Romand : votre artisan taxi à Suippes, Châlons-en-Champagne, Fagnières, Saint-Memmie et Sainte-Marie-à-Py.">
+        <meta name="description" content="Votre taxi à Suippes, Châlons-en-Champagne, Fagnières, Saint-Memmie et Sainte-Marie-à-Py dans la Marne. Vivez l'expérience du tout électrique en Tesla.">
 
-        <title>Taxis Thierry Romand</title>
+        <title>Taxis Thierry Romand - Taxi Chalons-en-Champagne électrique Tesla</title>
 
         <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
         
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,300italic,400' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,600,700' rel='stylesheet' type='text/css'>
         <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="css/style.css" rel="stylesheet" type="text/css" />
 
@@ -37,42 +37,78 @@
                 <div class="container header">
                     <div class="row">
                         <div itemscope itemtype="http://schema.org/LocalBusiness" id="header">
-                            <img src="img/logo_blanc.svg" onerror="this.onerror=null; this.src='img/logo_blanc.png'" alt="Logo Taxis Thierry Romand"/>
+                            <img src="img/logo_blanc.svg" onerror="this.onerror=null; this.src='img/logo_blanc.png'" alt="Logo Taxis Thierry Romand Tesla"/>
                             <h1 itemprop="name">Taxis Thierry Romand</h1>
                             <h3>« Partout avec vous »</h3>
-                            <a href="tel:+33326665331"><h2>
-                                <span itemprop="phone">03 26 66 53 31</span>
-                            </h2></a>
+                            <a href="tel:+33326665331">
+                                <h2><span itemprop="phone">03 26 66 53 31</span></h2>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="test" id="header-nav">
-            <nav>
-                <ul class="nav nav-tabs">
-                    <li><a href="#presentation">Présentation</a></li>
-                    <li><a href="#tma">Transports de malade assis</a></li>
-                    <li><a href="#te">Transports d'enfants</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+<nav class="navbar" id="header-nav">
+        <div class="navbar-header">
+            <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
         </div>
 
+        <nav id="bs-navbar" class="collapse navbar-collapse">
+            <ul class="nav nav-tabs">
+                <li><a href="#Taxis-Chalons-en-Champagne-Suippes">Présentation</a></li>
+                <li><a href="#Transports-de-Malades-Assis-Hopital-Clinique-Marne">Transports de malade assis</a></li>
+                <li><a href="#Transports-Enfants-Rehausseur-Lewis-Carroll-CMPP">Transports d'enfants</a></li>
+                <li><a href="#contact-Taxis-Chalons-en-Champagne-Suippes">Contact</a></li>
+            </ul>
+        </nav>
+</nav>
+
+<!-- <nav class="navbar navbar-default navbar-fixed-top" >
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <nav id="bs-navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#Taxis-Chalons-en-Champagne-Suippes">Présentation</a></li>
+                <li><a href="#Transports-de-Malades-Assis-Hopital-Clinique-Marne">Transports de malade assis</a></li>
+                <li><a href="#Transports-Enfants-Rehausseur-Lewis-Carroll-CMPP">Transports d'enfants</a></li>
+                <li><a href="#contact-Taxis-Chalons-en-Champagne-Suippes">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</nav> -->
+
+
+
+
+
+
         <div class="container content">
-            <div class="row" id="presentation">
+            <div class="row" id="Taxis-Chalons-en-Champagne-Suippes">
                 <h1>Présentation</h1>
-                    <div class="col-sm-5 col-xs-12 col-sm-offset-1">
-                        <p>Taxis Thierry Romand regroupe les taxis de Suippes, Châlons-en-Champagne, Fagnières, Saint-Memmie et de Sainte-Marie-à-Py. 
-                        Nous vous accompagnons maintenant depuis plus de 9 ans.<br /><br />
+                    <div class="col-md-5 col-md-offset-1 col-sm-6 col-xs-12">
+                        <p>Taxis Thierry Romand regroupe les taxis de Suippes, Châlons-en-Champagne, Fagnières, Saint-Memmie et de Sainte-Marie-à-Py 
+                        dans la marne. Nous vous accompagnons maintenant depuis plus de 10 ans.<br /><br />
                         Grâce à nos 9 véhicules, nous pouvons vous transporter pour tous vos déplacements, qu'ils soient personnels ou d'ordre
                         médicale.<br />Nous aidons vos proches à mobilité réduite à se rendre sur leurs lieux </p>
                     </div>
-                    <div class="col-sm-5 col-xs-12">
+                    <div class="col-md-5 col-sm-6 col-xs-12">
                         <p>de rendez-vous, ainsi que vos enfants pour les trajets entre le domicile et leurs établissements.<br /><br />
                         Soucieux de l’impact environnemental des voitures nous avons commencé à nous intéresser depuis 2014 
-                        aux voitures électriques performantes afin de lier confort et écologie. Contactez-nous pour vivre 
+                        aux voitures électriques performantes afin d'allier confort et écologie. Contactez-nous pour vivre 
                         l'expérience du tout électrique en Tesla !</p>
                     </div>
             </div>
@@ -84,15 +120,15 @@
             </div>
 
         <div class="container content">
-            <div class="row" id="tma">
+            <div class="row" id="Transports-de-Malades-Assis-Hopital-Clinique-Marne">
                 <h1>Transports de malade assis</h1>
                 
-                <div class="col-xs-8 col-sm-offset-2">
+                <div class="col-lg-8 col-lg-offset-2">
                     <p>Nos chauffeurs de taxi ont passé une formation de secourisme et sont titulaires de ce dernier.
                     Au cours de votre déplacement, vous bénéficiez de toute notre assistance.</p>
                 </div>
-                <div class="col-xs-8 col-sm-offset-2">
-                    <h3 id="black">N'hésitez pas à nous contacter pour plus de renseignements.</h3>
+                <div class="col-lg-8 col-lg-offset-2">
+                    <a href="tel:+33326665331"><h3 id="black">N'hésitez pas à nous <u>contacter</u> pour plus de renseignements.</h3></a>
                 </div>
             </div>
         </div>
@@ -112,14 +148,14 @@
         </div> -->
 
         <div class="container content">
-            <div class="row" id="te">
+            <div class="row" id="Transports-Enfants-Rehausseur-Lewis-Carroll-CMPP">
                 <h1>Transports d'enfants</h1>
                 
                 <div class="col-xs-12">
                     <div class="col-md-6 col-xs-12">
                         <h2>Transport extra-scolaire</h2>
-                            <p>Votre enfant a un suivi au CMPP, Centre Lewis Carroll, ou dans une tout autre structure. 
-                            Nous pouvons prendre votre enfant en charge.<br /><br />
+                            <p>Votre enfant a un suivi, 
+                            nous pouvons prendre votre enfant en charge.<br /><br />
                             Vous avez une préférence pour l'un de nos chauffeurs taxi ? N'hésitez pas à nous le dire, nous pouvons 
                             mettre à votre disposition le chauffeur que vous désirez.</p>
                     </div>
@@ -163,11 +199,11 @@
             </div>
         </div>
 
-        <div class="contact" id="contact">
+        <div class="contact" id="contact-Taxis-Chalons-en-Champagne-Suippes">
             <div class="content container">
                 <div class="row">
                     <h1>Contact</h1>
-                        <div class="col-md-4 col-md-offset-1 col-xs-12 cgauche">
+                        <div class="col-md-4 col-md-offset-1 col-xs-10 col-xs-offset-1 cgauche">
                             <div class="row">
                                 <h2>
                                     <a href="tel:+33326665331">
@@ -214,12 +250,12 @@
                                 
 
                                 <div class="row">
-                                    <div class="col-md-5 col-md-offset-1">
+                                    <div class="col-md-5 col-md-offset-1 col-xs-6">
                                         <div class="input-group">
                                             <input name="name" type="text" class="form-control" placeholder="Nom*" required />
                                         </div>
                                     </div>
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 col-xs-6">
                                         <div class="input-group">
                                             <input name="prenom" type="text" class="form-control" placeholder="Prénom*" required />
                                         </div>
@@ -227,12 +263,12 @@
                                 </div><!-- /.row -->
 
                                 <div class="row">
-                                    <div class="col-md-5 col-md-offset-1">
+                                    <div class="col-md-5 col-md-offset-1 col-xs-6">
                                         <div class="input-group">
                                             <input name="email" type="email" class="form-control" placeholder="E-mail*" required />
                                         </div>
                                     </div>
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 col-xs-6">
                                         <div class="input-group">
                                             <input type="tel" class="form-control" id="Telephone" placeholder="Téléphone">
                                         </div>

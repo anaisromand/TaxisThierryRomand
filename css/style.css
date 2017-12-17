@@ -30,11 +30,11 @@ p {
 }
 
 .bg-header {
+	background-color: #e4b736;
 	background: url('../img/cover_ss_fond.png') no-repeat center fixed;
 	background-size: cover;
 	-moz-background-size:cover;
 	-webkit-background-size: cover;
-	background-color: #e4b736;
 	height: 600px;
 }
 
@@ -115,7 +115,7 @@ h1, h2, h3{
 	color: #e4b736;
 	background-color: #fafcfb;
 	border:none;
-/*	font-weight: 700;*/
+	font-weight: 700;
 }
 
 .nav-tabs > li {
@@ -162,7 +162,7 @@ nav > ul {
 	z-index: 1000;
 }
 
-#presentation {
+#Taxis-Chalons-en-Champagne-Suippes {
 	height: auto;
 	padding-top: 65px;
 	padding-bottom: 10px;
@@ -214,7 +214,7 @@ a, a:hover, a:active {
 	font-size: 300;
 }
 
-#tma ul li {
+#Transports-de-Malades-Assis-Hopital-Clinique-Marnete ul li {
 	font-size: 0.875rem;
 	color: #1a2c23;
 	text-align: left;
@@ -230,6 +230,7 @@ a, a:hover, a:active {
 .contact h2 a {
 	font-size: 1.4rem;
 	color: white;
+	font-weight: 600;
 }
 
 .contact h3 {
@@ -241,18 +242,8 @@ a, a:hover, a:active {
 }
 
 .cgauche {
-	padding:20px 0px;
 	border: 1px solid white;
-}
-
-.container.cgauche {
-	display: table;
-	height: 200px;
-}
-
-.container.cgauche > .row {
-	display: table-cell;
-	vertical-align: middle;
+	margin-bottom: 40px;
 }
 
 /*.form-inline, .input-group, .btn, .input {
@@ -290,4 +281,9 @@ textarea.form-control {
 	color: #c9a130;
 	border-color: #c9a130;
 	border-radius: 0;
+}
+
+@media (max-width: 768px) {
+	.nav-tabs > li > a {padding-right: 500;padding-left: 0;}
+	.contact h2 a{font-size: 1.2rem;}
 }
