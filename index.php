@@ -31,12 +31,11 @@
     </head>
 
     <body data-target="#header-nav" data-spy="scroll">
-
         <div class="bg-header">
             <div id="bg-color">
                 <div class="container header">
                     <div class="row">
-                        <div itemscope itemtype="http://schema.org/LocalBusiness" id="header">
+                        <div itemscope itemtype="http://schema.org/LocalBusiness">
                             <img src="img/logo_blanc.svg" onerror="this.onerror=null; this.src='img/logo_blanc.png'" alt="Logo Taxis Thierry Romand Tesla"/>
                             <h1 itemprop="name">Taxis Thierry Romand</h1>
                             <h3>« Partout avec vous »</h3>
@@ -49,18 +48,20 @@
             </div>
         </div>
 
-<nav class="navbar" id="header-nav">
-        <div class="navbar-header">
-            <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-        </div>
+    <nav class="navbar navbar-default" id="header-nav">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
 
-        <nav id="bs-navbar" class="collapse navbar-collapse">
-            <ul class="nav nav-tabs">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
                 <li><a href="#Taxis-Chalons-en-Champagne-Suippes">Présentation</a></li>
                 <li><a href="#Transports-de-Malades-Assis-Hopital-Clinique-Marne">Transports de malade assis</a></li>
                 <li><a href="#Transports-Enfants-Rehausseur-Lewis-Carroll-CMPP">Transports d'enfants</a></li>
@@ -101,12 +102,18 @@
                 <h1>Présentation</h1>
                     <div class="col-md-5 col-md-offset-1 col-sm-6 col-xs-12">
                         <p>Taxis Thierry Romand regroupe les taxis de Suippes, Châlons-en-Champagne, Fagnières, Saint-Memmie et de Sainte-Marie-à-Py 
-                        dans la marne. Nous vous accompagnons maintenant depuis plus de 10 ans.<br /><br />
-                        Grâce à nos 9 véhicules, nous pouvons vous transporter pour tous vos déplacements, qu'ils soient personnels ou d'ordre
-                        médicale.<br />Nous aidons vos proches à mobilité réduite à se rendre sur leurs lieux </p>
+                        dans la marne. Nous vous accompagnons maintenant depuis plus de 10 ans dans chacun de vos déplacements.<br /><br />
+                        Grâce à nos 9 véhicules, nous pouvons vous transporter pour tous vos trajets, qu'ils soient personnels ou d'ordre
+                        médicale.<br />
+                        Allant de la citadine jusqu'au véhicule 9 places, en passant par le PMR et la berline, nous avons le véhicule 
+                        qui correspond à vos besoins !
+
+                        </p>
                     </div>
                     <div class="col-md-5 col-sm-6 col-xs-12">
-                        <p>de rendez-vous, ainsi que vos enfants pour les trajets entre le domicile et leurs établissements.<br /><br />
+                        <p>Nos chauffeurs de taxi ont passé une formation de secourisme et sont titulaires de ce dernier. Chacun de nos véhicules est équipés
+                        d'une trousse de secours.<br /><br />
+
                         Soucieux de l’impact environnemental des voitures nous avons commencé à nous intéresser depuis 2014 
                         aux voitures électriques performantes afin d'allier confort et écologie. Contactez-nous pour vivre 
                         l'expérience du tout électrique en Tesla !</p>
@@ -124,11 +131,17 @@
                 <h1>Transports de malade assis</h1>
                 
                 <div class="col-lg-8 col-lg-offset-2">
-                    <p>Nos chauffeurs de taxi ont passé une formation de secourisme et sont titulaires de ce dernier.
-                    Au cours de votre déplacement, vous bénéficiez de toute notre assistance.</p>
+                    <p>De votre domicile jusqu'à la prise en charge par votre spécialiste, vous bénéficiez de toute notre assistance. <br />
+                    Que vous deviez vous rendre sur Reims, Châlons-en-Champagne, Epernay, Paris, Lille, Metz ou dans toutes autres villes françaises, 
+                    nous serons là pour vous accompagnez de votre domicile jusqu'à votre retour.<br /><br />
+
+                     Nous pouvons répondre à chacun de vos besoins : un de vos proches à mobilité réduite doit se rendre sur 
+                        l'un de ces lieux de rendez-vous ? Nous pouvons l'y emmener grâce à notre véhicule équipé PMR.<br />
+                            Votre enfant doit se rendre jusqu'à son établissement ? Nous ponvons l'y emmener grâce à nos différents 
+                        sièges auto pour enfant allant du groupe 0+ au groupe 3 (merci de le préciser lors de votre demande de transport).</p>
                 </div>
                 <div class="col-lg-8 col-lg-offset-2">
-                    <a href="tel:+33326665331"><h3 id="black">N'hésitez pas à nous <u>contacter</u> pour plus de renseignements.</h3></a>
+                    <a href="tel:+33326665331"><h3 id="black">Pour plus de renseignements, <u>contactez-nous</u>.</h3></a>
                 </div>
             </div>
         </div>
@@ -155,9 +168,11 @@
                     <div class="col-md-6 col-xs-12">
                         <h2>Transport extra-scolaire</h2>
                             <p>Votre enfant a un suivi, 
-                            nous pouvons prendre votre enfant en charge.<br /><br />
-                            Vous avez une préférence pour l'un de nos chauffeurs taxi ? N'hésitez pas à nous le dire, nous pouvons 
-                            mettre à votre disposition le chauffeur que vous désirez.</p>
+                            nous pouvons le prendre en charge depuis son école ou bien depuis son domicile. Nous serons présents à ces côtés jusqu'au 
+                            début de sa séance, et dès la fin de celle-ci. Nous ne laissons jamais un enfant seul.<br />
+                            Nous travaillons depuis plusieurs années avec les même éducateurs, un vrai lien de confiance c'est construit.<br /><br />
+                            Vous avez une préférence pour l'un de nos chauffeurs taxi ? Dites-le nous, afin que nous puissons 
+                            mettre à votre disposition la personne que vous désirez.</p>
                     </div>
                     <div class="col-md-6 col-xs-12">
                         <div class="panel panel-default">
@@ -165,11 +180,11 @@
                                 Nous vous garantissons :
                             </div>
                             <ul class="list-group">
-                                <li class="list-group-item">la prise en charge par son éducateur(trice).</li>
+                                <li class="list-group-item">une aide pour l'accès au véhicule, à votre domicile.</li>
+                                <li class="list-group-item">d'attendre la prise en charge par son éducateur(trice).</li>
                                 <li class="list-group-item">d'être présent avant la fin de sa séance.</li>
                                 <li class="list-group-item">que votre enfant ne se trouve jamais seul dans la salle d'attente.</li>
                                 <li class="list-group-item">un réhausseur pour son déplacement, si besoin.</li>
-                                <li class="list-group-item">une aide pour l'accès au véhicule, à votre domicile.</li>
                             </ul>
                         </div>
                     </div>
@@ -187,12 +202,13 @@
                             <div class="panel-heading">
                                 Nous vous garantissons :
                             </div>
-                                <ul class="list-group">
-                                    <li class="list-group-item">une aide pour l'accès au véhicule, à votre domicile.</li>
-                                    <li class="list-group-item">d'attendre la prise en charge par son établissement.</li>
-                                    <li class="list-group-item">d'être présent avant sa sortie, le soir.</li>
-                                    <li class="list-group-item">que votre enfant ne se trouve jamais seul. </li>
-                                </ul>
+                            <ul class="list-group">
+                                <li class="list-group-item">une aide pour l'accès au véhicule, à votre domicile.</li>
+                                <li class="list-group-item">d'attendre la prise en charge par son établissement.</li>
+                                <li class="list-group-item">d'être présent avant sa sortie, le soir.</li>
+                                <li class="list-group-item">que votre enfant ne se trouve jamais seul. </li>
+                                <li class="list-group-item">un réhausseur pour son déplacement, si besoin.</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -248,7 +264,6 @@
 
                             <form method="post" class="form-inline">
                                 
-
                                 <div class="row">
                                     <div class="col-md-5 col-md-offset-1 col-xs-6">
                                         <div class="input-group">

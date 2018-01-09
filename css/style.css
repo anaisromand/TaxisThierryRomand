@@ -48,8 +48,7 @@ p {
 }
 
 #bg-color {
-	background-color: #e4b736;
-	opacity: 0.86;
+	background-color: rgba(228, 183, 54, 0.85);
 }
 
 .container.header{
@@ -100,51 +99,37 @@ h1, h2, h3{
     position: fixed;
     top:0px;
     width:100%;
-    margin-bottom: 65px;
 }
 
-.nav-tabs {
-	border: none;
-}
-
-.nav-tabs > li.active > a,
-.nav-tabs > li.active > a:hover,
-.nav-tabs > li.active > a:focus,
-.nav > li > a:hover,
-.nav > li > a:focus {
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
 	color: #e4b736;
 	background-color: #fafcfb;
 	border:none;
-	font-weight: 700;
 }
 
-.nav-tabs > li {
-	float: none;
-}
-
-.nav-tabs > li > a {
-	border: none;
+.navbar-default .navbar-nav > li > a {
 	color: #d9d1b8;
 	font-weight: 600;
 }
 
-nav {
+.navbar-nav{
+     display: table;
+     margin: 0 auto;
+     height:auto;
+     float: none;
+}
+
+.navbar.navbar-default {
 	background-color: #fafcfb;
 	width: 100%;
-	height: 65px;
-	display: table;
 	border-bottom: 1px solid #e4b736;
 }
 
-nav > ul {
-	display: table-cell;
-	vertical-align: middle;
-}
-
-.nav li {
-	list-style: none;
-	display: inline-block;
-	margin:0 15px;
+.navbar.navbar-default li {
 	text-transform: uppercase;
 	font-size: 0.875rem;
 }
@@ -266,7 +251,7 @@ textarea.form-control {
 }
 
 .form-control, .form-control:focus, .btn-default {
-	border-color: #c9a130;
+	border-color: #E4B736;
 	box-shadow: none;
 }
 
@@ -284,6 +269,7 @@ textarea.form-control {
 }
 
 @media (max-width: 768px) {
-	.nav-tabs > li > a {padding-right: 500;padding-left: 0;}
-	.contact h2 a{font-size: 1.2rem;}
+	.nav.navbar-nav > li > a {padding-right: 500;padding-left: 0;}
+	.contact h2 a{font-size: 1rem;}
+	#Transports-Enfants-Rehausseur-Lewis-Carroll-CMPP h2:first-child {margin-top:0px;}
 }
